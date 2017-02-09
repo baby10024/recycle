@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up_background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/add_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="130dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/head" />
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="48.0dip"
+                android:layout_marginRight="48.0dip"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yuanjiao_sign_up"
+                android:gravity="center"
+                android:hint="昵称"
+                android:src="@drawable/head"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="12dip" />
+
+            <EditText
+                android:id="@+id/et_realname"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="48.0dip"
+                android:layout_marginRight="48.0dip"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yuanjiao_sign_up"
+                android:gravity="center"
+                android:hint="真实姓名"
+                android:src="@drawable/head"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="12dip" />
+
+            <EditText
+                android:id="@+id/et_phonenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="48.0dip"
+                android:layout_marginRight="48.0dip"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yuanjiao_sign_up"
+                android:gravity="center"
+                android:hint="电话"
+                android:inputType="phone"
+                android:src="@drawable/head"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="12dip" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="48.0dip"
+                android:layout_marginRight="48.0dip"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yuanjiao_sign_up"
+                android:gravity="center"
+                android:hint="密码"
+                android:src="@drawable/head"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="12dip" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="48.0dip"
+                android:layout_marginRight="48.0dip"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yuanjiao_sign_up_green"
+                android:gravity="center"
+                android:src="@drawable/head"
+                android:text="注册"
+                android:textColor="#ffffff"
+                android:textSize="12dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

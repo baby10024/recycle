@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/log_in_background" 
+    android:id="@+id/rl_log_in">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="22.0dip" >
+
+                <ImageView
+                    android:layout_width="57.0dip"
+                    android:layout_height="57.0dip"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/setting_head_icon" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/userNameText"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:layout_marginTop="15.0dip"
+                android:background="@drawable/yuanjiao"
+                android:drawableLeft="@drawable/login_icon_account"
+                android:drawablePadding="15.0dip"
+                android:ems="10"
+                android:hint="请输入账户"
+                android:textColor="@color/bg_White"
+                android:inputType="text"
+                android:paddingBottom="2.0dip"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:paddingTop="2.0dip"
+                android:singleLine="true"
+                android:textColorHint="#ff999999"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@+id/passwdText"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/yuanjiao"
+                android:drawableLeft="@drawable/login_icon_password"
+                android:drawablePadding="15.0dip"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:paddingBottom="2.0dip"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:paddingTop="2.0dip"
+                android:singleLine="true"
+                android:textColorHint="#ff999999"
+                android:textSize="16.0sp" />
+
+            <Button
+                android:id="@+id/bn_Login"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginRight="50.0dip"
+                android:background="@drawable/btn_login"
+                android:singleLine="true"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+        
+
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="500dp">
+    
+     <TextView
+                android:id="@+id/tv_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="10.0dip"
+                android:layout_marginLeft="300.0dip"
+                android:layout_marginRight="3.0dip"
+                
+                android:singleLine="true"
+                android:layout_weight="0.1"
+     android:paddingBottom="20.0dip"
+     android:gravity="bottom"
+                
+                android:background="@drawable/sign_up_icon"
+                
+                android:textColor="#ffffff"
+                android:textSize="18.0sp" />
+     <!-- 
+     android:layout_marginBottom="1.0dip" 
+     -->
+    </LinearLayout>
+
+</RelativeLayout>

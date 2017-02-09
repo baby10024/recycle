@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recycle"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" /> <!-- 使用照相机权限 -->
+    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- 自动聚焦权限 -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.recycle.WelcomePage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.javis.changeRegion.ChangeRegion" />
+        <activity android:name="com.javis.recycle.home.AddGarbageOrder" />
+        <activity android:name="com.javis.recycle.home.AddHouseServiceOrder" />
+        <activity android:name="com.javis.recycle.mail.BabyActivity" />
+        <activity android:name="com.javis.recycle.mail.WareActivity" />
+        <activity android:name="com.javis.recycle.mail.ShowBigPictrue" />
+        <activity android:name="com.javis.recycle.mail.BuynowActivity" />
+        <activity android:name="com.jarvis.MyView.BabyPopWindow" />
+        <activity android:name="com.jarvis.recycle.cart.Cart" />
+        <activity android:name="com.javis.recycle.user.ShowGarbageOrder" />
+        <activity android:name="com.javis.recycle.user.ShowHouseServiceOrder" />
+        <activity android:name="com.javis.recycle.user.EditGarbageOrder" />
+        <activity android:name="com.javis.recycle.user.EditHouseServiceOrder" />
+        <activity android:name="com.example.recycle.LogIn" />
+        <activity android:name="com.example.recycle.SignUp" />
+        <activity android:name="com.javis.recycle.home.Main_FA" />
+        <activity android:name="com.javis.recycle.mail.Mail_F" />
+       
+        
+    </application>
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    
+
+</manifest>

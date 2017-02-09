@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.14"
+        android:orientation="horizontal"
+        android:background="@color/theme_Green">
+
+        <ImageView
+            android:id="@+id/ago_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/ago_back" />
+
+        <TextView
+            android:id="@+id/tv_top_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="预约"
+            android:textColor="@color/tv_White"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+       
+
+</LinearLayout>
